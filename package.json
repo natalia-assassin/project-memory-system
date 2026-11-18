@@ -1,0 +1,13 @@
+{
+  "name": "project-memory-system",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "供 Codex 项目使用的跨聊天记忆技能",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check-skill.mjs",
+    "release:stage": "node tools/stage-release.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+.tmp/
+node_modules/
+.agents/
+.codex/
+AGENTS.md
+.env
+.env.*
+*.log
+*.tmp
+
+# project-memory-system:start
+.project-memory/
+# project-memory-system:end
